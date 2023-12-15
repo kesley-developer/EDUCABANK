@@ -1,0 +1,204 @@
+/* Configuração Padrão de inicio */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #5e5e5e; /* Cor de fundo do HEADER (Cabeçalho) */
+    padding: 40px; /* Espaçamento */
+}
+
+.menu-header{ /* Aqui chamamos nossa Classe para estilização */
+    display: flex; /* Usamos para jogar os itens lado a lado */
+    flex-wrap: wrap; /* Utilizado para quebrar conteúdo caso exceda o limite */
+    justify-content: end; /* Justificando conteúdo ao fim */
+}
+
+.menu-header > li > a{
+    color: #fff; /*  Cor da fonte */
+    text-decoration: none; /* Decoração de texto */
+    font-size: 15px; /* Tamanho da fonte */
+}
+
+.menu-header > li > a:hover{ /* Ao passar o mouse no elemento */
+    transition: .8s; /* Transição de mudança */
+    color: blue; /* Cor da fonte */
+}
+
+.menu-header > li{
+    margin-left: 20px; /* Espaçamento da margem */
+}
+
+#sessao{
+    padding: 12rem; /* 1rem - Equivale a 16px */
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90,168, 168) 100%);
+}
+
+#sessao > h1{
+    font-size: 45px;
+    color: #1f1e1e;
+}
+
+#sessao > p{
+    font-size: 40px;
+}
+
+#sessao > button{
+    padding: 20px;
+    border-radius: 45px;
+    width: 15rem;
+    color: #13996c;
+    border-color: #13996c;
+    margin: 30px;
+    font-size: 15px;
+}
+
+#sessao > button:hover{
+    transition: .8s;
+    background-color: #13996c;
+    color: #fff;
+    border-color: #fff;
+}
+
+#app{
+    padding: 30vh; 
+    background-color: #d3d0d0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+#app > div > button{
+    padding: 20px; /* Espaçamento */
+    border-radius: 50px; /* Arrendondamento da borda */
+    width: 20vw; /* Largura */
+    color: #5aa8a8; /* Cor da fonte */
+    border-color: #5aa8a8; /* Cor da borda */
+    margin: 30px; /* Espaçamento da margem */
+    font-size: 15px; /* Tamanho da fonte */
+}
+
+#app > div > p{
+    font-size: 35px;
+}
+
+#app > div > button:hover{
+    transition: .5s;
+    background-color: #5aa8a8;
+    color: #fff;
+    border-color: #fff;
+}
+
+#app > div > img{
+    width: 30vw;
+    height: 60vh;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: -70px;
+}
+
+#container{
+    padding: 30vh;
+    background-color: #d3d0d0;
+    flex-wrap: wrap;
+}
+
+#container  > h2{
+    font-size: 40px;
+    margin-top: -20rem;
+    color: #2c2caa98;
+    text-align: center;
+}
+
+#container > p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #1111119d;
+    text-align: justify;
+}
+
+#container > .text1{
+    text-align: center;
+}
+
+#container > button{
+    padding: 20px;
+    border-radius: 50px;
+    width: 15vw;
+    color: #0000ffab;
+    border-color: #0000ffab;
+    margin: 60px;
+    font-size: 15px;
+}
+
+#container > button:hover{
+    transition: .8s;
+    color: #fff;
+    background-color: #0000ffab;
+    border-color: #0000ffab;
+}
+
+.line{
+    margin: 0 auto;
+    width: 70%;
+}
+
+#container > img{
+    width: 50vw;
+    margin-top: 30px;
+    margin-left: 10vw;
+}
+
+#container-cofre{    
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101) 100%),
+    url(imgs/img\ cofre\ fundo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+}
+
+#container-cofre > div > img{
+    width: 19vw;
+    margin-left: 25rem;
+    margin-top: 10rem;
+}
+
+#container-cofre > div > h2{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 9rem;
+    margin-top: 2rem;
+}
+
+footer{
+    padding: 13vh;
+    background-color: #121212;
+    text-align: center;
+}
+
+footer > img{
+    width: 25rem;
+    height: 7rem;
+    margin-top: -5rem;
+}
+
+.item-footer{
+    color: #ffffff41;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-footer > li > a{
+    color: #ffffff41;
+    text-decoration: none;
+}
+
+.item-footer > li > a:hover{
+    transition: .8s;
+    color: #3636e4;
+}
